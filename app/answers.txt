@@ -1,0 +1,31 @@
+Category: technical_questions
+Question: Explain the concept of dependency injection.
+Answer: A function is a block of code that performs a specific task
+Method is a function associated with an object
+
+Category: technical_questions
+Question: What is the CAP theorem in distributed systems?
+Answer: A function is a block of code that performs a specific task
+Method is a function associated with an object
+
+Category: technical_questions
+Question: Describe the principles of clean code.
+Answer: Lists are mutable, meaning their contents can be changed
+Tuples are immutable, once created they cannot be changed
+
+Category: technical_questions
+Question: What is the difference between a list and a tuple in Python?
+Answer: Lists are mutable, meaning their contents can be changed while Tuples are immutable, once created they cannot be changed
+
+Category: technical_questions
+Question: What is the difference between a stack and a queue?
+Answer: any clue
+
+Category: technical_questions
+Question: Describe the differences between REST and GraphQL.
+Answer: testing of modules
+
+Category: technical_questions
+Question: What is a binary tree and what are its applications?
+Answer: unit testing
+

@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}Home - InterviewEve{% endblock %}
+
+{% block content %}
+    <div class="jumbotron text-center">
+        <h1 class="display-4">Welcome to InterviewEve</h1>
+        <p class="lead">Your journey to interview success starts here. Get ready to shine in your next interview with our expertly crafted practice questions.</p>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <h3 class="card-title">Interview Tip of the Day:</h3>
+            <p class="card-text">{{ interview_tip }}</p>
+        </div>
+    </div>
+    <div class="mt-4 text-center">
+        <h4>Select a Category:</h4>
+        <ul class="list-group list-group-horizontal justify-content-center">
+            <li class="list-group-item"><a href="{{ url_for('app.question', category='interview_tips') }}">Interview Tips</a></li>
+            <li class="list-group-item"><a href="{{ url_for('app.question', category='general_questions') }}">General Questions</a></li>
+            <li class="list-group-item"><a href="{{ url_for('app.question', category='technical_questions') }}">Technical Questions</a></li>
+        </ul>
+    </div>
+{% endblock %}

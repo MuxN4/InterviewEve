@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}Question - InterviewEve{% endblock %}
+
+{% block content %}
+    <div class="card mt-4">
+        <div class="card-body">
+            <h2 class="card-title">Interview Question</h2>
+            <p class="card-text">{{ question }}</p>
+            <form method="post" action="{{ url_for('app.question', category=request.args.get('category')) }}">
+                {{ form.hidden_tag() }}
+                <div class="form-group">
+                    {{ form.answer.label(class="form-label") }}
+                    {{ form.answer(class="form-control", size=40, rows=5) }}
+                </div>
+                {{ form.submit(class="btn btn-primary") }}
+            </form>
+        </div>
+    </div>
+{% endblock %}
